@@ -7,6 +7,8 @@ tags: vscode-extensions
 
 ---
 
+# **javascript console utils**
+
 [https://marketplace.visualstudio.com/items?itemName=vscode-convert-utils.vscode-js-console-utils](https://marketplace.visualstudio.com/items?itemName=vscode-convert-utils.vscode-js-console-utils)
 
 一键打console.log，方便快捷，很好用
