@@ -76,9 +76,9 @@ export interface CameraData {
 }
 
 const CurrentCamera: React.FC = () => {
-  const cameraId = useGlobalStore(state => state.cameraData.cameraId);
+  const cameraData = useGlobalStore(state => state.cameraData);
 
-  return <CurrentCameraId cameraId={cameraId} />;
+  return <CurrentCameraId cameraId={cameraData.cameraId} />;
 };
 ```
 
@@ -161,6 +161,6 @@ const ComponentA = () => {
 
 [Zustand](https://zustand-demo.pmnd.rs/)
 
-[master 分支下的 notes/zustand](https://github.com/puxiao/notes/blob/master/zustand%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0.md) [学习笔记.md](http://学习笔记.md) [--- notes/](https://github.com/puxiao/notes/blob/master/zustand%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0.md)[zustand学习笔记.md](http://zustand学习笔记.md) [at master · puxiao/notes](https://github.com/puxiao/notes/blob/master/zustand%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0.md)
+[master 分支下的 notes/zustand](https://github.com/puxiao/notes/blob/master/zustand%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0.md) [学习笔记.md](http://xn--vjq503agxy74n.md) [\--- notes/](https://github.com/puxiao/notes/blob/master/zustand%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0.md)[zustand学习笔记.md](http://xn--zustand-9g4k218ggh0emgvb.md) [at master · puxiao/notes](https://github.com/puxiao/notes/blob/master/zustand%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0.md)
 
 [如何有效率地管理 React 局部狀態？ 這次我選擇了 Zustand! | Bosh 的技術探索筆記](https://notes.boshkuo.com/docs/React/zustand#%E7%82%BA%E4%BD%95%E9%81%B8%E6%93%87%E4%BD%BF%E7%94%A8-zustand-)
